@@ -7,7 +7,7 @@ def product(a, b):
 
 
 def greeting(name):
-    return f'Have a nice day {name.capitalize()}!'
+    return f'Have a nice dayy {name.capitalize()}!'
 
 
 def matrix_multiply(a, b):
