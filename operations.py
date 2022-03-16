@@ -1,9 +1,9 @@
 def adder(a, b):
-    return a+b
+    return a-b
 
 
 def product(a, b):
-    return a*b
+    return a+b
 
 
 def greeting(name):
