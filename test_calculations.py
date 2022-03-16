@@ -1,10 +1,10 @@
 import pytest
-from calculations import *
+from operations import *
 import numpy as np
 
 
 def test_greeting():
-    assert 'Have a nice day Mukunda!' == greeting('mukunda')
+    assert 'Have a nice day Thomas!' == greeting('thomas')
 
 
 def test_product():
@@ -28,3 +28,7 @@ def test_matrix_multiply_res():
     a = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
     b = np.array([[10, 20, 30], [40, 50, 60], [1, 2, 3]])
     assert a.shape[1] == b.shape[0]
+
+
+def test_recommendation_length():
+    assert len(recommend(1000)) == 20
