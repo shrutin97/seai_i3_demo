@@ -12,7 +12,7 @@ def test_product():
 
 
 def test_sum():
-    assert 123 == adder(10, 2)
+    assert 12 == adder(10, 2)
 
 
 def test_matrix_multiply_res():
