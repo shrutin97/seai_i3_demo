@@ -32,3 +32,8 @@ def test_matrix_multiply_shape():
 
 def test_recommendation_length():
     assert len(recommend(1000)) == 20
+
+
+def test_avg_rating():
+    rating = avg_rating('data.json')
+    assert rating <= 5 and rating > 0
