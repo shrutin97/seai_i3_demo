@@ -2,7 +2,7 @@ import json
 
 
 def adder(a, b):
-    return a+b
+    return a+b+1
 
 
 def product(a, b):
